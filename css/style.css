@@ -95,7 +95,6 @@ label a {
     display: flex;
     align-items: end;
     color: #0969da;
-
 }
 
 input {
@@ -109,7 +108,6 @@ input {
     vertical-align: middle;
     border: 1px solid #d0d7de;
     outline: none;
-
 }
 
 input:focus {
@@ -160,8 +158,14 @@ button {
 
 #footer {
     margin: 40px;
-    justify-content: space-between;
-    align-items: center;
+    width: 400px;
+    justify-content: center;
 
-    border: 2px solid red;
+}
+
+#terms {
+    border: 1px solid red;
+    color: #0969da;
+    text-decoration: none;
+    align-items: center;
 }
